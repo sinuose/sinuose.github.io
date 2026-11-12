@@ -3,10 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>n99m</title>
+    <!-- This is css linking-->
+    <link rel="stylesheet" href="static/css/styles.css">
+    <title>n99m-labs</title>
+
 </head>
 <body>
+    <div class="container">
+        <!-- navigation -->
+        <div id="top-bar" class="divider">
 
-    <h1>welcome.
+            <a href="index.html">Home </a>
+            <a href="index.html">Page 1</a>
+            <a href="index.html">Page 2</a>
+
+        </div>
+        <!-- text and gif -->
+        <div id="middle-body" class="divider">
+            <!-- text -->
+            <div id="about-me" class="mj_div">
+                <h1>What is n99m?</h1>
+                <p>
+                   lorem ipsum dolor sit amet consectetur adipiscing elit aute dolorum mollit ea sint minim laboris qui sunt duis eu odio dolorem quos tempore imperdiet nihil qui molestias qui aliquip vero iusto ullamco elit exercitation incididunt deleniti enim voluptate animi labore est fugiat rerum velit sed eligendi in quos tempore veniam
+                </p>
+            </div>
+            <!-- Image -->
+            <div id="n99m-gif" class="mj_div">
+                <img src="static/assets/earth.gif">
+            </div>
+        </div>
+        <!-- simulation -->
+        <div id="bottom-body" class="simulation">
+            <canvas id="brownian-boxes" width="800" height="600" style="border: 2px solid red; background-color: #f0f0f0;">
+
+            </canvas>
+        </div>
+    </div>
+
 </body>
+
+<script  type="module" src="static/js/brownian-boxes.js"></script>
+<script type="module" src="static/js/mj_math.js"></script>
+
 </html>

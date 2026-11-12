@@ -1,0 +1,61 @@
+body {
+    background-color: #555;
+    font-family: fantasy;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.divider{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* flex: 1 1 200px; */
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    /* width: 100%; */
+}
+
+
+
+.simulation {
+    display: flexbox;
+    width: 100%;
+
+}
+
+.mj_div {
+    flex: 1;
+    min-width: 0;
+}
+
+#top-bar {
+  * > a {
+    justify-content: space-between;
+}
+}
+
+#about-me {
+    min-width: 100px;
+    justify-content: center;
+    /* max-width: 110px; */
+}
+
+#n99m-gif {
+    /* justify-content: center */
+    /* max-width: 110px; */
+    min-width: 25%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+#middle-body {
+    min-width: 100%;
+    gap: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
